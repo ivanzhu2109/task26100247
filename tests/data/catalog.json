@@ -1,0 +1,6 @@
+{
+  "models": ["Alpha", "Beta"],
+  "years": [2023, 2024],
+  "displacements": [1498, 1998],
+  "transmissions": ["AT", "MT"]
+}

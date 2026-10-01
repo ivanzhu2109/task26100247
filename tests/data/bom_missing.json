@@ -1,0 +1,13 @@
+{
+  "bom_id": "BOM-MISSING",
+  "positions": ["engine", "gearbox"],
+  "target": [
+    {"models": ["Alpha", "Beta"], "transmissions": ["AT", "MT"], "year": [2023, 2024], "displacement": [1498, 1998]}
+  ],
+  "entries": [
+    {"entry_id": "E-ENG-1", "part_id": "P-ENG-A", "position": "engine",
+     "enable": [
+       {"models": ["Alpha", "Beta"], "transmissions": ["AT", "MT"], "year": [2023, 2024], "displacement": [1498, 1998]}
+     ]}
+  ]
+}
