@@ -1,0 +1,40 @@
+{
+  "bom_id": "BOM-PASS",
+  "required_positions": ["engine"],
+  "target": [
+    {
+      "models": ["Alpha", "Beta"],
+      "year_min": 2023, "year_max": 2024,
+      "displacement_min": 1498, "displacement_max": 1998,
+      "transmissions": ["AT", "MT"]
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "E-ENG-15",
+      "part_number": "P-ENG-15",
+      "position": "engine",
+      "enable": [
+        {
+          "models": ["Alpha", "Beta"],
+          "year_min": 2023, "year_max": 2024,
+          "displacement_min": 1498, "displacement_max": 1498,
+          "transmissions": ["AT", "MT"]
+        }
+      ]
+    },
+    {
+      "entry_id": "E-ENG-20",
+      "part_number": "P-ENG-20",
+      "position": "engine",
+      "enable": [
+        {
+          "models": ["Alpha", "Beta"],
+          "year_min": 2023, "year_max": 2024,
+          "displacement_min": 1998, "displacement_max": 1998,
+          "transmissions": ["AT", "MT"]
+        }
+      ]
+    }
+  ]
+}

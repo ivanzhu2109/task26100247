@@ -1,0 +1,27 @@
+{
+  "bom_id": "BOM-DENY-POINT",
+  "required_positions": ["engine"],
+  "target": [
+    {
+      "models": ["Alpha"],
+      "year_min": 2023, "year_max": 2024,
+      "displacement_min": 1498, "displacement_max": 1498,
+      "transmissions": ["AT", "MT"]
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "E-DENY",
+      "part_number": "P-DENY",
+      "position": "engine",
+      "enable": [
+        {
+          "models": ["Alpha"],
+          "year_min": 2023, "year_max": 2024,
+          "displacement_min": 1498, "displacement_max": 1498,
+          "transmissions": ["AT", "MT"]
+        }
+      ]
+    }
+  ]
+}

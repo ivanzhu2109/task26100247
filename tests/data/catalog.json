@@ -1,0 +1,71 @@
+{
+  "catalog": {
+    "models": ["Alpha", "Beta"],
+    "years": [2023, 2024],
+    "displacements": [1498, 1998],
+    "transmissions": ["AT", "MT"]
+  },
+  "parts": [
+    {
+      "part_number": "P-ENG-15",
+      "allow": [
+        {
+          "models": ["Alpha", "Beta"],
+          "year_min": 2023, "year_max": 2024,
+          "displacement_min": 1498, "displacement_max": 1498,
+          "transmissions": ["AT", "MT"]
+        }
+      ],
+      "deny": []
+    },
+    {
+      "part_number": "P-ENG-20",
+      "allow": [
+        {
+          "models": ["Alpha", "Beta"],
+          "year_min": 2023, "year_max": 2024,
+          "displacement_min": 1998, "displacement_max": 1998,
+          "transmissions": ["AT", "MT"]
+        }
+      ],
+      "deny": []
+    },
+    {
+      "part_number": "P-ADJ",
+      "allow": [
+        {
+          "models": ["Alpha", "Beta"],
+          "year_min": 2023, "year_max": 2023,
+          "displacement_min": 1498, "displacement_max": 1998,
+          "transmissions": ["AT", "MT"]
+        },
+        {
+          "models": ["Alpha", "Beta"],
+          "year_min": 2024, "year_max": 2024,
+          "displacement_min": 1498, "displacement_max": 1998,
+          "transmissions": ["AT", "MT"]
+        }
+      ],
+      "deny": []
+    },
+    {
+      "part_number": "P-DENY",
+      "allow": [
+        {
+          "models": ["Alpha"],
+          "year_min": 2023, "year_max": 2024,
+          "displacement_min": 1498, "displacement_max": 1498,
+          "transmissions": ["AT", "MT"]
+        }
+      ],
+      "deny": [
+        {
+          "models": ["Alpha"],
+          "year_min": 2023, "year_max": 2023,
+          "displacement_min": 1498, "displacement_max": 1498,
+          "transmissions": ["AT"]
+        }
+      ]
+    }
+  ]
+}

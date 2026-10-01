@@ -1,0 +1,27 @@
+{
+  "bom_id": "BOM-ADJACENT",
+  "required_positions": ["engine"],
+  "target": [
+    {
+      "models": ["Alpha", "Beta"],
+      "year_min": 2023, "year_max": 2024,
+      "displacement_min": 1498, "displacement_max": 1998,
+      "transmissions": ["AT", "MT"]
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "E-ADJ",
+      "part_number": "P-ADJ",
+      "position": "engine",
+      "enable": [
+        {
+          "models": ["Alpha", "Beta"],
+          "year_min": 2023, "year_max": 2024,
+          "displacement_min": 1498, "displacement_max": 1998,
+          "transmissions": ["AT", "MT"]
+        }
+      ]
+    }
+  ]
+}
